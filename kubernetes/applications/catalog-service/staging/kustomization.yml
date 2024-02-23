@@ -15,7 +15,7 @@ configMapGenerator:
 
 images:
   - name: catalog-service
-    newName: ghcr.io/<your_github_username>/catalog-service
+    newName: ghcr.io/RalfLackinger/catalog-service
     newTag: latest
 
 replicas:
