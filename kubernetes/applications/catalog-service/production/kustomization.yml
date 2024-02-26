@@ -17,8 +17,8 @@ configMapGenerator:
 images:
 - name: catalog-service
   newName: ghcr.io/ralflackinger/catalog-service
-  newTag: 77cf1b7c118f4afc98c598f9ebc20ca3d37bfc6a
+  newTag: d840b2fdae2d5bfb3537a72194bbcaa6b0f29ab4
 
 replicas:
-  - name: catalog-service
-    count: 2
+- count: 2
+  name: catalog-service
