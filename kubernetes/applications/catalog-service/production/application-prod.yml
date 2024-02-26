@@ -1,5 +1,5 @@
 polar:
-  greeting: greeting: Welcome to our production book catalog synchronized with Argo CD!
+ greeting: Welcome to our production book catalog synchronized with Argo CD!
 spring:
   config:
     import: configtree:/workspace/secrets/*/
